@@ -22,9 +22,13 @@ cardfetch lets you make a personalized neofetch-like card about you<br>now you s
 <p align="center">
   
 ```
-print(Fore.RESET) # Text Color (BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
-print(Back.RESET) # Background Color (BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
-print(Style.NORMAL) # Text Style (DIM, NORMAL, BRIGHT, RESET_ALL)
+ascii_color = Fore.RESET #(BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
+text_info = Fore.RESET #(BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
+text_color = Fore.RESET  #(BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
+title_color = Fore.RESET #(BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
+dash_color = Fore.RESET #(BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
+print(Back.RESET) #(BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET)
+print(Style.NORMAL)  #(DIM, NORMAL, BRIGHT, RESET_ALL)
 ```
 <p align="center">
 <h3 align="center">Config Info</h3>
@@ -61,3 +65,31 @@ Reddit: your u/username
 <p align="center">
 Convert Image to ASCII on https://www.text-image.com/convert/ascii.html<br>
 and configure on ascii.txt
+<p align="center">
+  
+```
+@#PGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGP#@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y      ~:   ~:   ~!!~.   :^   ^^  .~!!~        Y@  
+@Y      ~B! 55. :GY   B~  JB   P5  ^@  5B       Y@  
+@Y       :G#?   J#    5G  JB   P5  ^&??G?       Y@  
+@Y        7&    ~#7   B7  !#~:^B?  ^@~~PY^      Y@  
+@Y        ^7     :7???^    ~???!   :?.  !7.     Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y       ^J:    .!7?7~    !7?7!. :7?~  ^7?~     Y@  
+@Y      :B B.   GG      .GY   7.  Y#    5B      Y@  
+@Y      B   5   ^JJJY?  !@        ?B    JG      Y@  
+@Y     YG~!!#?       #. .P5   ?:  Y#    5#      Y@  
+@Y    ##    ##  ^!77~.    ~77!~  :!!~  :!!~     Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@Y                                              Y@  
+@#PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP#@   
+```
